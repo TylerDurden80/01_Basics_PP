@@ -18,9 +18,23 @@
 // output(arr[0]); // Index 0 (1. Pos. im Array)
 // output(arr[arr.length-1]); // letze Pos. / allgemein
 
+/* 02a. Theorie: Schleifen (for-schleife) */
+/* For -Schleifen als allg. Wiederholungs-Struktur */
 
+// Inkrement (untere Grenze --> obere Grenze)
+// for (let i = 0; i < 100 ; i++) {
+//     output("index :" + i);  // i --> Schleifen-Index
+// }
 
+// Dekrement (obere Grenze --> untere Grenze)
+// for (let i = 10; i > 0; i--) {  // i --> Schleifen-Index
+//      output("index :" + i);
+// }
 
+// Inkrement (var. Schrittweite)
+for (let i = 10; i <= 100; i += 10) {
+   output("index :" + i);   
+}
 
 
 
@@ -34,7 +48,7 @@
 /*** 01. Funktionalität mit Einzelparametern */
 // --> "Ich bin Max Mütze."
 // output(getSentence("Ich","bin","Max","Mütze"));
-output(getSentence("Ich","bin","die","coole","Maxine","Mützerich"));
+// output(getSentence("Ich","bin","die","coole","Maxine","Mützerich"));
 function getSentence(word1,word2,word3,word4,word5,word6) {
     const GAP = " ";
     const PUNCT = ".";
@@ -68,6 +82,9 @@ function getSentenceArr(arr) {
 
     return str;
 }
+
+
+
 
 
 // Modul: Ausgabe in Konsole : Test
