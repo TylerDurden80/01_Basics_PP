@@ -63,7 +63,7 @@ function getNumber(figure) {
 
     let displayStr = INFO_STR_PRE_NUM + figure + INFO_STR_POST_NUM;
     let inputStr = prompt(displayStr);
-    output(inputStr);
+    // output(inputStr);
 
     /** 
      * Wenn User abbricht, macht eine weitere Bearbeitung
